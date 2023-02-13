@@ -119,7 +119,8 @@ header{
 }
 
 header.sticky{
-  background: #3a6cf4;
+  /* background: #3a6cf4; */
+  background: #000016;
   padding: 10px 200px;
 }
 
