@@ -2,11 +2,11 @@
   "name": "joshualine.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://joshualine.github.io/react-gh-pages",
+  "homepage": "https://joshualine.github.io/joshualine.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     
     "dev": "vite",
     "build": "vite build",

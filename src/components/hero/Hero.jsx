@@ -30,26 +30,24 @@ const Hero = () => {
             <h2 >About Me</h2>
             <p className=''>I am a passionate and results-oriented Backend Engineer with 3 years of experience designing, developing, and maintaining large-scale, distributed systems using microservices architectures. I possess strong expertise in Java Spring (including Core, Boot, Data, Cloud, and MVC), containerization technologies like Docker, and various monitoring and visualization tools like ELK Stack and Grafana.
 
-              
+            </p>
 
-              </p>
-
-              <p className="">
+            <p className="">
               My experience extends to distributed messaging systems like Kafka and RabbitMQ, allowing me to build efficient and scalable communication pipelines. Additionally, I am proficient in various relational and non-relational databases (MySQL, PostgreSQL, MongoDB) and cloud platforms (AWS, Azure) for robust data storage and management. I am also well-versed in serverless architectures, service discovery (Netflix Eureka), API gateways (Netflix Zuul), and service mesh (Istio) technologies for building highly scalable and resilient applications.
-              </p>
+            </p>
 
-              <p className="">
+            <p className="">
               Beyond technical skills, I am a strong team player with excellent communication and problem-solving abilities. I am constantly learning and evolving, keeping myself updated with the latest trends and technologies in the backend development landscape. I am eager to leverage my skills and experience to contribute to the development of innovative and impactful software solutions.
-              </p>
+            </p>
           </div>
           <div className="col-md-1">
             <h2>Contact</h2>
             <div className="">
-              <h2><img src={mail} className="logo" alt="mail" /></h2>
-              <h2><img src={linkedin} className="logo" alt="linkedin" /></h2>
-              <h2><img src={github} className="logo" alt="github" /></h2>
-              <h2><img src={twitter} className="logo" alt="x.com" /></h2>
-              <h2><img src={youtube} className="logo" alt="youtube" /></h2>
+              <a className='px-3' href="mailto:joshuachinwendu@gmail.com"><img src={mail} className="logo" alt="mail" /></a>
+              <a className='px-3' href="https://www.linkedin.com/in/joshchinwendu/"><img src={linkedin} className="logo" alt="linkedin" /></a>
+              <a className='px-3' href="https://github.com/joshualine"><img src={github} className="logo" alt="github" /></a>
+              <a className='px-3' href="https://x.com/joshchinwendu"><img src={twitter} className="logo" alt="x.com" /></a>
+              <a className='px-3' href="https://youtube.com/@joshchinwendu"><img src={youtube} className="logo" alt="youtube" /></a>
             </div>
           </div>
         </div>

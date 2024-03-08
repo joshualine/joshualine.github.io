@@ -34,7 +34,7 @@ const Blog = () => {
           </div>
           <div className="col-md-6 p-3">
             <div className="h-100 p-5 bg-light border rounded-3">
-              <h2 style={{ color: '#3e2929' }}>Building Scalable Microservies</h2>
+              <h2 style={{ color: '#3e2929' }}>Building Scalable Microservice</h2>
               <button className="btn btn-outline-secondary" type="button">Read</button>
             </div>
           </div>
