@@ -6,7 +6,6 @@ import twitter from '../../img/twitterx.svg'
 import github from '../../img/github.svg'
 import youtube from '../../img/youtube.svg'
 import linkedin from '../../img/linkedin.svg'
-import mail from '../../img/icons8-mailbox.svg'
 
 const Hero = () => {
   return (
@@ -17,7 +16,11 @@ const Hero = () => {
         <div className="container ">
 
           <h1 className="display-3 d-flex justify-content-center"><img src={josh} className="display-pics" alt="Joshua Chinwendu" /></h1>
-          <h1 className="display-3 d-flex justify-content-center">Joshua Chinwendu</h1>
+          <div className='d-flex justify-content-center'>
+            <h1 className="display-3 d-flex justify-content-center px-2">Joshua</h1>
+            <h1 className="display-3 d-flex justify-content-center px-1">Chinwendu</h1>
+          </div>
+
           <h4 className='text-center' style={{ color: '#3e2929' }}>A Software Developer with specialty in building highly performant applications that solve real-world problems.</h4>
         </div>
       </div>
@@ -28,7 +31,7 @@ const Hero = () => {
         <div className="row justify-content-center">
           <div className="col-md-5">
             <h2 >About Me</h2>
-            <p className=''>I am a passionate and results-oriented Backend Engineer with 3 years of experience designing, developing, and maintaining large-scale, distributed systems using microservices architectures. I possess strong expertise in Java Spring (including Core, Boot, Data, Cloud, and MVC), containerization technologies like Docker, and various monitoring and visualization tools like ELK Stack and Grafana.
+            <p className=''>I am a passionate and results-oriented Backend Engineer with experience in designing, developing, and maintaining large-scale, distributed systems using microservices architectures. I possess strong expertise in Java Spring (including Core, Boot, Data, Cloud, and MVC), containerization technologies like Docker, and various monitoring and visualization tools like ELK Stack and Grafana.
 
             </p>
 
@@ -43,7 +46,7 @@ const Hero = () => {
           <div className="col-md-1">
             <h2>Contact</h2>
             <div className="">
-              <a className='px-3' href="mailto:joshuachinwendu@gmail.com"><img src={mail} className="logo" alt="mail" /></a>
+              <a className='px-3' href="mailto:joshuachinwendu@gmail.com"><img width="24" height="29" src="https://img.icons8.com/sf-regular/48/new-post.png" alt="new-post" /></a>
               <a className='px-3' href="https://www.linkedin.com/in/joshchinwendu/"><img src={linkedin} className="logo" alt="linkedin" /></a>
               <a className='px-3' href="https://github.com/joshualine"><img src={github} className="logo" alt="github" /></a>
               <a className='px-3' href="https://x.com/joshchinwendu"><img src={twitter} className="logo" alt="x.com" /></a>
@@ -56,9 +59,7 @@ const Hero = () => {
 
       </div>
 
-      <footer className="container">
-        <p>&copy; 2024 Joshua Chinwendu - All Rights Reserved.</p>
-      </footer>
+
 
     </>
   )
